@@ -1,0 +1,105 @@
+2018-12-26 10:28:29 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "_ijt=gk63a09035m0a84q8gpkbdm077" could not be found.
+Exception Attributes: array (
+  'url' => '_ijt=gk63a09035m0a84q8gpkbdm077',
+)
+#0 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Router.php(385): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(146): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 G:\wamp64\www\Narenj\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 G:\wamp64\www\Narenj\webroot\index.php(40): Cake\Http\Server->run()
+#12 G:\wamp64\www\Narenj\index.php(16): require('G:\\wamp64\\www\\N...')
+#13 {main}
+Request URL: _ijt=gk63a09035m0a84q8gpkbdm077?_ijt=gk63a09035m0a84q8gpkbdm077
+
+
+2018-12-26 10:30:50 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "_ijt=hvj5bic8fqi3a1iqkpobhg4ccv" could not be found.
+Exception Attributes: array (
+  'url' => '_ijt=hvj5bic8fqi3a1iqkpobhg4ccv',
+)
+#0 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Router.php(385): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(146): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 G:\wamp64\www\Narenj\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 G:\wamp64\www\Narenj\webroot\index.php(40): Cake\Http\Server->run()
+#12 G:\wamp64\www\Narenj\index.php(16): require('G:\\wamp64\\www\\N...')
+#13 {main}
+Request URL: _ijt=hvj5bic8fqi3a1iqkpobhg4ccv?_ijt=hvj5bic8fqi3a1iqkpobhg4ccv
+
+
+2018-12-26 10:30:56 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "ijt=hvj5bic8fqi3a1iqkpobhg4ccv" could not be found.
+Exception Attributes: array (
+  'url' => 'ijt=hvj5bic8fqi3a1iqkpobhg4ccv',
+)
+#0 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Router.php(385): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(146): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 G:\wamp64\www\Narenj\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 G:\wamp64\www\Narenj\webroot\index.php(40): Cake\Http\Server->run()
+#12 G:\wamp64\www\Narenj\index.php(16): require('G:\\wamp64\\www\\N...')
+#13 {main}
+Request URL: ijt=hvj5bic8fqi3a1iqkpobhg4ccv?ijt=hvj5bic8fqi3a1iqkpobhg4ccv
+
+
+2018-12-26 10:39:45 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "_ijt=p6i901oudibrssb4q6khphh6qk" could not be found.
+Exception Attributes: array (
+  'url' => '_ijt=p6i901oudibrssb4q6khphh6qk',
+)
+#0 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Router.php(385): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(146): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 G:\wamp64\www\Narenj\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 G:\wamp64\www\Narenj\webroot\index.php(40): Cake\Http\Server->run()
+#12 G:\wamp64\www\Narenj\index.php(16): require('G:\\wamp64\\www\\N...')
+#13 {main}
+Request URL: _ijt=p6i901oudibrssb4q6khphh6qk?_ijt=p6i901oudibrssb4q6khphh6qk
+
+
+2018-12-26 10:45:07 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "_ijt=va20phm1vp9tm40qgp2milkr5b" could not be found.
+Exception Attributes: array (
+  'url' => '_ijt=va20phm1vp9tm40qgp2milkr5b',
+)
+#0 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Router.php(385): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(146): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 G:\wamp64\www\Narenj\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 G:\wamp64\www\Narenj\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 G:\wamp64\www\Narenj\webroot\index.php(40): Cake\Http\Server->run()
+#12 G:\wamp64\www\Narenj\index.php(16): require('G:\\wamp64\\www\\N...')
+#13 {main}
+Request URL: _ijt=va20phm1vp9tm40qgp2milkr5b?_ijt=va20phm1vp9tm40qgp2milkr5b
+
+
